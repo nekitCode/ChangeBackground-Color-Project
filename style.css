@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.changeColor {
+    width: 100%;
+    height: 100vh;
+    background-color: brown;
+}
+
+.changeColorContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#changeColorBtn {
+    border: 1px solid rgb(42, 75, 165);
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #8682C8;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#changeColorBtn:active {
+    background-color: #B344D5;
+    color: #4143;
+}
